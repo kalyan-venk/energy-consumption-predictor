@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.envrc
+
+# OS
+.DS_Store
+
+# Data / Models
+/data/*
+!/data/.gitkeep
+/models/*
+!/models/.gitkeep
+
+# PyCharm
+.idea/
